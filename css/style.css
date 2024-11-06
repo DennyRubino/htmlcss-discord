@@ -9,6 +9,7 @@
 /*--------
      DEBUG
  --------*/
+/*
 .debug .header-top {background-color: #add8e6;} 
 .debug .header-bottom { background-color: #00008b;}
 .debug .header-top > .container {background-color: #daa520;}
@@ -17,14 +18,19 @@
 .debug .rectangle-grey {background-color: grey;}
 .debug .rectangle-red { background-color: pink;}
 .debug  .square {background-color:#228B22;}
+.debug .header-top > .container-2{background-color: #23272A;}
 /*--------
    GENERAL
 --------*/
 .container {
     max-width: 1200px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;}
     
+.container-2{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;}
 }
 /*-----------
    HEADER
@@ -41,6 +47,11 @@
     align-items: center;
     justify-content:  space-between;
     
+}
+.header-top > .container-2{
+    display:flex;
+    align-items: center;
+    justify-content:  space-between;
 }
 .header-top .logo,
 .header-top nav,
