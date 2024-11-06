@@ -17,7 +17,7 @@ body {
   
   h1 {font-size: 40px;}
 
-  h2 ,{font-size: 35px;
+  h2 ,{font-size:35px;
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal}
@@ -115,6 +115,11 @@ body {
     padding: 0px;
     text-align: center;
 }
+.bottom{
+    padding:  15px 0;
+    justify-content: space-between;
+    background-color: #23272A;
+}
 .header-bottom .rectangle > p {
 margin-top:  30px;
 margin-bottom: 16px;
@@ -136,8 +141,14 @@ margin-right: 400px;
 .header-top nav,
 .header-top .login {
     padding: 6px;
-    
 }
+.bottom .logo,
+.bottom .login {
+    width 20%;
+}
+.bottom .login{ text-align:right ;}
+
+
 .header-top .logo, .header-top .login {
     width 20%
 }
@@ -180,7 +191,7 @@ margin-right: 400px;
     font-size: 16px;
     background-color: white;
     border: none;
-    border-radius: 20%;
+    border-radius: 25px;
     cursor: pointer;
 }
 .button-2 {
@@ -188,7 +199,7 @@ margin-right: 400px;
     font-size: 16px;
     background-color: white;
     border: none;
-    border-radius: 65%;
+    border-radius: 25px;
     cursor: pointer;
 }
 .button-3{
@@ -196,7 +207,7 @@ margin-right: 400px;
     font-size: 16px;
     background-color: #23272A;
     border: none;
-    border-radius: 65%;
+    border-radius: 25px;
     cursor: pointer;
 }
 .button-4{
@@ -204,11 +215,21 @@ margin-right: 400px;
     font-size: 16px;
     background-color: #8EA1E1;
     border: none;
-    border-radius: 65%;
+    border-radius: 25px%;
     cursor: pointer;
     left: 190px;
     position: relative;
     top: 25px;
+}
+.button-5{padding: 10px 20px;
+    font-size: 10px;
+    background-color: #8EA1E1;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    left: -30px;
+    position: relative;
+    top: -35px;
 }
 /*---------
    Figure
