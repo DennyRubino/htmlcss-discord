@@ -201,6 +201,8 @@ margin-right: 400px;
     border: none;
     border-radius: 25px;
     cursor: pointer;
+    right: 40px;
+    position: relative;
 }
 .button-3{
     padding: 10px 20px;
