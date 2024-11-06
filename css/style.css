@@ -9,19 +9,34 @@
 /*---------
   THIPOGRAPHY
 ----------*/
-.roboto-regular {
+body {
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
   }
-  
+  h1 {font-size: 40px;}
   .roboto-medium {
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal;
   }
+  h2 , h3 , h4{font-size: 35px;}
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;}
+    h5 {
+        font-size: 35px;
+        text-align: center;
+    }
+  .font {
+    font-size: 18px;
+  }
   .white{
     color: white;
+  }
+  .black {
+    color:black
   }
   
 /*--------
@@ -31,13 +46,14 @@
 .debug .header-top {background-color: #add8e6;} 
 .debug .header-bottom { background-color: #00008b;}
 .debug .header-top > .container {background-color: #daa520;}
-.debug .rectangle-pink {background-color: pink;}
-.debug .rectangle-lightblue{background-color: lightblue;}
+.debug .rectangle-pink {background-color: pink;border: black dashed;}
+.debug .rectangle-lightblue{background-color: lightblue;border: black dashed;}
 .debug .rectangle-grey {background-color: grey;}
 .debug .rectangle-red { background-color: pink;}
-.debug  .square {background-color:#228B22;}
+.debug  .square {background-color:#228B22; border: black dashed;}
 .debug .header-top > .container-2{background-color: #23272A;}
 .debug .header-top .logo, .header-top nav, header-top .login{border: 1px dashed black;}
+.debug .rectangle{border: black dashed;}
 /*--------
    GENERAL
 --------*/
@@ -59,7 +75,14 @@
     background-color: #3161E0;
 }
 .header-bottom {
-    padding: 200px;
+    padding: 0px;
+    text-align: center;
+}
+.header-bottom .rectangle > p {
+margin-top:  30px;
+margin-bottom: 16px;
+margin-left: 400px;
+margin-right: 400px;
 }
 .header-top > .container {
     display:flex;
@@ -115,6 +138,30 @@
 /*---------
   Button
 ---------*/
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.button-2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 65%;
+    cursor: pointer;
+}
+.button-3{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #23272A;
+    border: none;
+    border-radius: 65%;
+    cursor: pointer;
+}
 /*---------
    Figure
 ---------*/
@@ -123,30 +170,31 @@
     justify-content: center; /
     gap: 0px; }
 
-.rectangle {
-    padding: 100px;
-    background-color: white;
-    height: 200px;
-    width: 1200px;
-    border: black dashed;
+    .rectangle  {
+            height:600px; 
+            width: 100%; 
+            background-image: url(../Img/jumbo.png); 
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat;  
     
 }
 .rectangle-pink {
-    padding: 100px;
-    height: 400px;
-    width: 600px; 
-    border: black dashed;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height: 300px;
+    width: 700px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    
+    
 }
 
 .rectangle-lightblue {
-    padding: 100px;
+    padding: 10px;
     height: 400px; 
     width: 300px;
-    border: black dashed;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .rectangle-grey {
     height: 400px;
@@ -167,9 +215,9 @@
     padding:100px;
     height:650px;
     width:650px;
-    border: black dashed;
-    margin-left: 400px;
-    margin-top: 50px;
+    margin-left: 300px;
+    margin-top: 80px;
+    margin-bottom: 80px;
   /*--------
     BACKGROUD
  ----------*/
