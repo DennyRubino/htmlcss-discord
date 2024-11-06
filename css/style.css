@@ -6,6 +6,24 @@
     margin: 0;
     padding: 0;
 }
+/*---------
+  THIPOGRAPHY
+----------*/
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .white{
+    color: white;
+  }
+  
 /*--------
      DEBUG
  --------*/
@@ -19,6 +37,7 @@
 .debug .rectangle-red { background-color: pink;}
 .debug  .square {background-color:#228B22;}
 .debug .header-top > .container-2{background-color: #23272A;}
+.debug .header-top .logo, .header-top nav, header-top .login{border: 1px dashed black;}
 /*--------
    GENERAL
 --------*/
@@ -31,13 +50,13 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;}
-}
 /*-----------
    HEADER
 ------------*/
 .header-top{
     padding:  15px 0;
     justify-content: space-between;
+    background-color: #3161E0;
 }
 .header-bottom {
     padding: 200px;
@@ -51,12 +70,11 @@
 .header-top > .container-2{
     display:flex;
     align-items: center;
-    justify-content:  space-between;
+    justify-self:center
 }
 .header-top .logo,
 .header-top nav,
 .header-top .login {
-    border: 1px dashed black;
     padding: 6px;
     
 }
@@ -68,12 +86,35 @@
 }
 .header-top nav {
     width: 60%;
+    padding: 8px;
+    text-align: center;
+}
+.link {
+    display: flex;
+    gap: 20px;
+}
+.link a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.link span {
+    margin-right: 10px; 
+    color: white;
     text-align: center;
 }
 .login{
     position:relative;
     right: 2px;
 }
+/*---------
+  Button
+---------*/
 /*---------
    Figure
 ---------*/
