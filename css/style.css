@@ -57,9 +57,19 @@ body {
     font-weight: bold;
     font-style: normal; 
   }
+  .information-2{
+    color: #7289DA; 
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-style: normal; 
+    position: relative;
+    bottom: 15px;
+  }
   .space{justify-content: space-between;
     display:flex;
   }
+  .text-1{flex-direction: column ;
+    margin: 0;}
 /*--------
      DEBUG
  --------*/
@@ -69,8 +79,8 @@ body {
 .debug .header-top > .container {background-color: #daa520;}
 .debug .rectangle-pink {background-color: pink;border: black dashed;}
 .debug .rectangle-lightblue{background-color: lightblue;border: black dashed;}
-.debug .rectangle-grey {background-color: grey;}
-.debug .rectangle-red { background-color: pink;}
+.debug .rectangle-grey {background-color: grey; border: white dashed;}
+.debug .rectangle-red { background-color: pink; border: black dashed;}
 .debug  .square {background-color:#228B22; border: black dashed;}
 .debug .header-top > .container-2{background-color: #23272A;}
 .debug .header-top .logo, .header-top nav, header-top .login{border: 1px dashed black;}
@@ -238,15 +248,16 @@ margin-right: 400px;
 .rectangle-grey {
     height: 400px;
     width: 100px; 
-    border: white dashed;
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .rectangle-red {
     padding: 25px;
     height: 400px;
     width: 200px; 
-    border: black dashed;
     margin-top: 50px;
     margin-bottom: 50px;}
     
