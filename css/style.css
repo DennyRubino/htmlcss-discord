@@ -14,23 +14,35 @@ body {
     font-weight: 400;
     font-style: normal;
   }
+  
   h1 {font-size: 40px;}
-  .roboto-medium {
+
+  h2 , h3 , h4{font-size: 35px;
     font-family: "Roboto", serif;
     font-weight: 500;
-    font-style: normal;
-  }
-  h2 , h3 , h4{font-size: 35px;}
+    font-style: normal}
   .roboto-medium {
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal;}
     h5 {
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
+        font-family: "Roboto", serif;
+    }
+    h6 {
+        font-size: 25px;
+    text-align: center;
+    font-family: "Roboto", serif;
+    right: 20px;
+    position: relative;
+    bottom: 25px;
     }
   .font {
     font-size: 18px;
+  }
+  .font.1{
+    font-size: 16px;
   }
   .white{
     color: white;
@@ -162,6 +174,17 @@ margin-right: 400px;
     border-radius: 65%;
     cursor: pointer;
 }
+.button-4{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8EA1E1;
+    border: none;
+    border-radius: 65%;
+    cursor: pointer;
+    left: 190px;
+    position: relative;
+    top: 25px;
+}
 /*---------
    Figure
 ---------*/
@@ -181,7 +204,7 @@ margin-right: 400px;
 }
 .rectangle-pink {
     height: 300px;
-    width: 700px; 
+    width: 600px; 
     margin-top: 10px;
     margin-bottom: 30px;
     margin-left: 80px;
@@ -195,6 +218,7 @@ margin-right: 400px;
     width: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 30px;
 }
 .rectangle-grey {
     height: 400px;
@@ -213,8 +237,8 @@ margin-right: 400px;
     
     .square {
     padding:100px;
-    height:650px;
-    width:650px;
+    min-height:1000px;
+    width:800px;
     margin-left: 300px;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -223,7 +247,7 @@ margin-right: 400px;
  ----------*/
 }
 .background{
-    background-color: #D3D3D3;
+    background-color: #F6F6F6
 }
 
 .background-2 {
